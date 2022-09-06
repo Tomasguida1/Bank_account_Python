@@ -35,10 +35,6 @@ def crear_cliente():
         return cliente
     
 def inicio():
-    """nombre = input("ingrese el nombre del cliente: ")
-    apellido = input("ingrese el apellido del cliente: ")
-    numero_cuenta = int(input("ingrese el numero de cuenta: "))
-    #balance = int(input("ingrese el saldo de la cuenta: "))"""
     op = 0
     cliente = crear_cliente()
     while op != 3:
